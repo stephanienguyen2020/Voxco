@@ -5,7 +5,7 @@ VoxcoPyAuto is a Python-based automation tool designed specifically to streamlin
 ## Background
 The Poverty Tracker is a critical initiative that follows a panel of approximately 2,000 to 3,000 New York City households, surveying them every three months over several years. This approach enables the collection of detailed and longitudinal data on income, material hardships, health, and well-being, thereby providing insights into the evolving nature of disadvantage in the city.
 
-As a Research Assistant involved in this project, I encountered a significant challenge during my daily tasks, which involved making 40 to 60 calls to survey participants. After about 1000 calls, I observed a consistent pattern: approximately 90% of these calls ended up in voicemail, especially during daytime shifts. Recognizing this repetitive pattern, I identified an opportunity to optimize the process using automation.
+As a Research Assistant involved in this project, I encountered a significant challenge during my daily tasks, which involved making 40 to 60 calls to survey participants. After about ***1000 calls***, I observed a consistent pattern: approximately 90% of these calls ended up in voicemail, especially during daytime shifts. Recognizing this repetitive pattern, I identified an opportunity to optimize the process using automation.
 
 ## The Solution: VoxcoPyAuto
 To address this challenge, I developed VoxcoPyAuto using Python and PyAutoGUI. This script is tailored to automatically mark calls that reach voicemail without a message (denoted as 'MACH' in Voxco) as complete. This automation significantly reduces the manual effort required in the survey process and increases efficiency in data collection.
