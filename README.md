@@ -1,4 +1,17 @@
 # Voxco
+Table of Contents
+1. [Introduction](#introduction)
+2. Background
+3. Introducing VoxcoPyAuto
+   3.1. Demo
+   3.2. File Structure
+   3.3. Features
+   3.4. Installation
+   3.5. How to Run the Program
+   3.6. Upcoming Enhancements
+4. Personal Usage and Ethical Considerations
+5. Contributions
+
 ## Introduction
 VoxcoPyAuto is a Python-based automation tool designed specifically to streamline the survey data collection process for the [Poverty Tracker](https://www.povertycenter.columbia.edu/poverty-tracker-data) study conducted by the Center on Poverty & Social Policy at Columbia University. This project is part of a partnership with Robin Hood and Columbia University, aimed at understanding the dynamics of poverty, hardship, and disadvantage in New York City.
 
@@ -46,6 +59,13 @@ To use this tool, select an Integrated Development Environment (IDE) that suits 
 
 - Automatic Logout: To further automate the process, the tool will be upgraded to automatically log out of Voxco at the end of the shift. This feature will ensure that the session is securely closed each day without the need for manual intervention.
 
-### Contributions
+## Personal Usage and Ethical Considerations
+I want to emphasize that this script, VoxcoPyAuto, was primarily developed for my personal use in managing the demands of my role as a Research Assistant. While I have shared it with a couple of my colleagues, it's important to note that this script is not officially supported or utilized by the Poverty Tracker project.
+
+The creation of VoxcoPyAuto was not intended to facilitate lazy work or to bypass the responsibilities of my role. In fact, I actively maintain my work ethic by manually intervening and stopping the program whenever I successfully connect with a survey participant. The purpose of this tool is not to avoid work but to handle a specific, repetitive aspect of the job more efficiently.
+
+The primary utility of VoxcoPyAuto lies in its ability to automate the monotonous task of marking calls as 'MACH' – a scenario that I've found occurs in about 90% of calls during my shifts. By automating this part of the process, I can focus more on the meaningful interactions that occur when I do connect with participants, thereby enhancing the quality and effectiveness of my work. It's a tool that aids in managing the repetitive tasks, allowing me to dedicate more attention to the core aspects of my role in the study.
+
+## Contributions
 Feedback and contributions to VoxcoPyAuto are welcome. If you have suggestions or improvements, please feel free to submit a pull request or open an issue in the repository.
 
