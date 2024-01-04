@@ -1,16 +1,16 @@
 # Voxco
 Table of Contents
 1. [Introduction](#introduction)
-2. Background
-3. Introducing VoxcoPyAuto
-   3.1. Demo
-   3.2. File Structure
-   3.3. Features
-   3.4. Installation
-   3.5. How to Run the Program
-   3.6. Upcoming Enhancements
-4. Personal Usage and Ethical Considerations
-5. Contributions
+2. [Background](#background)
+3. [Introducing VoxcoPyAuto](#the-solution-voxcopyauto)
+   3.1. [Demo](#demo)
+   3.2. [File Structure](#file-structure)
+   3.3. [Features](#features)
+   3.4. [Installation](#installation)
+   3.5. [How to Run the Program](#how-to-run-the-program)
+   3.6. [Upcoming Enhancements](#upcoming-enhancements)
+4. [Personal Usage and Ethical Considerations](#personal-usage-and-ethical-considerations)
+5. [Contributions](#contributions)
 
 ## Introduction
 VoxcoPyAuto is a Python-based automation tool designed specifically to streamline the survey data collection process for the [Poverty Tracker](https://www.povertycenter.columbia.edu/poverty-tracker-data) study conducted by the Center on Poverty & Social Policy at Columbia University. This project is part of a partnership with Robin Hood and Columbia University, aimed at understanding the dynamics of poverty, hardship, and disadvantage in New York City.
