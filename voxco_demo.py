@@ -13,7 +13,7 @@ time.sleep(5)
 #Login
 pos_id = pag.position(919,373)
 pag.click(pos_id)
-pag.typewrite('tn2510')
+pag.typewrite('add_your_username') #add your correct username
 time.sleep(2)
 
 pos_bypass = pag.position(918, 651)
@@ -21,12 +21,12 @@ pag.click(pos_bypass)
 
 pos_pass=pag.position(840, 409)
 pag.click(pos_pass)
-pag.typewrite('Hoangtu259*..1234567')
+pag.typewrite('add_your_password') #add your correct password
 time.sleep(1)
 
 pos_code=pag.position(842, 445)
 pag.click(pos_code)
-pag.typewrite('CUSSW')
+pag.typewrite('add_your_code') #add your correct code
 time.sleep(2)
 
 pos_login=pag.position(851, 499)
