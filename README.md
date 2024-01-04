@@ -29,6 +29,8 @@ Stay tuned for a comprehensive video demonstration of VoxcoPyAuto in action! I'l
 ### File Structure
 - **voxco_demo.py**: This script provides a comprehensive start-to-finish demonstration of the program. It includes functions to open the browser (Safari in this case), navigate to the survey website, and enter login credentials (username, password, and survey code). The script then selects a survey (a test survey for the demo) and initiates the call process. It waits for a period between 170s and 230s, and if the call doesn't connect, it marks it as 'MACH' and proceeds to the next call. This demo version doesn't include a loop for multiple calls and omits actual login information for privacy.
 
+- **main_functions.py**: This script is a comprehensive collection of all the functions used in the VoxcoPyAuto project. It includes essential functions like opening Safari, making a new call, logging in, and others that might not be demonstrated in voxco_demo.py. This script is especially useful for future users who wish to customize the program to fit their specific needs, such as handling different call outcomes (like Ring or Out of Service), not just 'MACH'.
+
 - **test.py**: Designed for situations where you need to bypass survey selection (useful when manually choosing a survey or when there are multiple surveys to choose from). It retains the call-making process of voxco_demo.py with the addition of a for-loop set to run three times, which can be adjusted as needed.
 
 - **position.py**: A utility script used to determine the screen positions of various elements. This is especially useful for adapting the script to different systems and browsers, as it doesn't rely on PyAutoGUI's image recognition and is more scalable across different operating systems.
@@ -68,4 +70,3 @@ The primary utility of VoxcoPyAuto lies in its ability to automate the monotonou
 
 ## Contributions
 Feedback and contributions to VoxcoPyAuto are welcome. If you have suggestions or improvements, please feel free to submit a pull request or open an issue in the repository.
-
