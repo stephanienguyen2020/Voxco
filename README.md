@@ -1,6 +1,6 @@
 # Voxco
 ## Introduction
-VoxcoPyAuto is a Python-based automation tool designed specifically to streamline the survey data collection process for the Poverty Tracker study conducted by the Center on Poverty & Social Policy at Columbia University. This project is part of a partnership with Robin Hood and Columbia University, aimed at understanding the dynamics of poverty, hardship, and disadvantage in New York City.
+VoxcoPyAuto is a Python-based automation tool designed specifically to streamline the survey data collection process for the [Poverty Tracker](https://www.povertycenter.columbia.edu/poverty-tracker-data) study conducted by the Center on Poverty & Social Policy at Columbia University. This project is part of a partnership with Robin Hood and Columbia University, aimed at understanding the dynamics of poverty, hardship, and disadvantage in New York City.
 
 ## Background
 The Poverty Tracker is a critical initiative that follows a panel of approximately 2,000 to 3,000 New York City households, surveying them every three months over several years. This approach enables the collection of detailed and longitudinal data on income, material hardships, health, and well-being, thereby providing insights into the evolving nature of disadvantage in the city.
