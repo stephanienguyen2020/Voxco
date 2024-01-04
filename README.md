@@ -11,9 +11,9 @@ As a Research Assistant involved in this project, I encountered a significant ch
 To address this challenge, I developed VoxcoPyAuto using Python and PyAutoGUI. This script is tailored to automatically mark calls that reach voicemail without a message (denoted as 'MACH' in Voxco) as complete. This automation significantly reduces the manual effort required in the survey process and increases efficiency in data collection.
 
 ### Features
-Automated Call Marking: Automatically marks calls as 'MACH' in Voxco when they reach voicemail without requiring a message.
-User-Friendly: Easy to set up and use, requiring minimal technical expertise.
-Efficiency Boost: Reduces manual effort, allowing more focus on other critical aspects of the study.
+- Automated Call Marking: Automatically marks calls as 'MACH' in Voxco when they reach voicemail without requiring a message.
+- User-Friendly: Easy to set up and use, requiring minimal technical expertise.
+- Efficiency Boost: Reduces manual effort, allowing more focus on other critical aspects of the study.
 
 ### Installation
 To use VoxcoPyAuto, you will need Python installed on your system along with PyAutoGUI. Detailed instructions on installation and setup are provided in the accompanying documentation.
