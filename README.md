@@ -14,7 +14,15 @@ To address this challenge, I developed VoxcoPyAuto using Python and PyAutoGUI. T
 Stay tuned for a comprehensive video demonstration of VoxcoPyAuto in action! I'll be uploading a walkthrough video showcasing the program's functionality and features very soon.
 
 ### File Structure
+- **voxco_demo.py**: This script provides a comprehensive start-to-finish demonstration of the program. It includes functions to open the browser (Safari in this case), navigate to the survey website, and enter login credentials (username, password, and survey code). The script then selects a survey (a test survey for the demo) and initiates the call process. It waits for a period between 170s and 230s, and if the call doesn't connect, it marks it as 'MACH' and proceeds to the next call. This demo version doesn't include a loop for multiple calls and omits actual login information for privacy.
 
+- **test.py**: Designed for situations where you need to bypass survey selection (useful when manually choosing a survey or when there are multiple surveys to choose from). It retains the call-making process of voxco_demo.py with the addition of a for-loop set to run three times, which can be adjusted as needed.
+
+- **position.py**: A utility script used to determine the screen positions of various elements. This is especially useful for adapting the script to different systems and browsers, as it doesn't rely on PyAutoGUI's image recognition and is more scalable across different operating systems.
+
+- **log_in_only.py**: A simplified script that focuses solely on opening the browser, navigating to the survey website, and handling the login process.
+
+- **TS_new_call.py** & **S2_new_call.py**: Variants of voxco_demo.py, these scripts are tailored for specific surveys (TS for the test survey and S2 for another survey). They exclude the login process, assuming the user is already logged in, and focus on initiating new calls.
 
 ### Features
 - Automated Call Marking: Automatically marks calls as 'MACH' in Voxco when you reach voicemail without leaving a message. 
