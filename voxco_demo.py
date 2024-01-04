@@ -33,8 +33,6 @@ pos_login=pag.position(851, 499)
 pag.click(pos_login)
 time.sleep(5)
 
-#Survey 1:
-
 #Survey 2:
 # pos_survey2=pag.position(487, 352)
 # pag.click(pos_survey2)
@@ -78,8 +76,3 @@ time.sleep(5)
 pos_next2=pag.position(817, 774)
 pag.click(pos_next2)
 time.sleep(3)
-
-#Mess
-#Start Survey
-#Relink: Type: SP wants to do it online (wait time: 5s)
-#Check: type: SP has it in their email and will do it later on their own (wait time 7s)
