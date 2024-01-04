@@ -1,5 +1,5 @@
 # Voxco
-Table of Contents
+## Table of Contents
 1. [Introduction](#introduction)
 2. [Background](#background)
 3. [Introducing VoxcoPyAuto](#the-solution-voxcopyauto)
