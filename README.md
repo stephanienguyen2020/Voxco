@@ -21,7 +21,7 @@ The Poverty Tracker is a critical initiative that follows a panel of approximate
 As a Research Assistant involved in this project, I encountered a significant challenge during my daily tasks, which involved making 40 to 60 calls to survey participants. After about ***1000 calls***, I observed a consistent pattern: approximately 90% of these calls ended up in voicemail, especially during daytime shifts. Recognizing this repetitive pattern, I identified an opportunity to optimize the process using automation.
 
 ## The Solution: VoxcoPyAuto
-To address this challenge, I developed VoxcoPyAuto using Python and PyAutoGUI. This script is tailored to automatically mark calls that reach voicemail without a message (denoted as 'MACH' in Voxco) as complete. This automation significantly reduces the manual effort required in the survey process and increases efficiency in data collection.
+To address this challenge, I developed VoxcoPyAuto using Python, PyAutoGUI, and OpenCV. This script is tailored to automatically mark calls that reach voicemail without a message (denoted as 'MACH' in Voxco) as complete. This automation significantly reduces the manual effort required in the survey process and increases efficiency in data collection.
 
 ### Demo
 Stay tuned for a comprehensive video demonstration of VoxcoPyAuto in action! I'll be uploading a walkthrough video showcasing the program's functionality and features very soon.
@@ -45,9 +45,10 @@ Stay tuned for a comprehensive video demonstration of VoxcoPyAuto in action! I'l
 - Efficiency Boost: Reduces manual effort, allowing more focus on other critical aspects of the study.
 
 ### Installation
-To use VoxcoPyAuto, you will need Python installed on your system along with PyAutoGUI. Check the following guides for detailed instructions
+To use VoxcoPyAuto, you will need Python installed on your system along with PyAutoGUI and OpenCV. Check the following guides for detailed instructions
 1. How to install [Python](https://www.python.org/downloads/)
 2. How to install [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/install.html)
+3. How to install [OpenCV](https://pypi.org/project/opencv-python/)
 
 ### How to Run the Program
 To use this tool, select an Integrated Development Environment (IDE) that suits your preference. I personally recommend Visual Studio Code. After forking this repository and cloning it to your local machine, you can run the script in any IDE you choose without requiring additional setup.
