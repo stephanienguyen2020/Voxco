@@ -37,9 +37,12 @@ def pick_TS():
 def select_mach():
     sleep_mach = random.randint(160,230)
     time.sleep(sleep_mach)
-    
-    pos_mach=pag.position(980, 312)
-    pag.click(pos_mach)
+
+    x, y = pag.locateCenterOnScreen("Images/Mach.png", confidence =0.8)
+    pag.moveTo(x,y, 1)
+    pag.click()
+    # pos_mach=pag.position(980, 312)
+    # pag.click(pos_mach)
     time.sleep(3)
 
 def next1():
